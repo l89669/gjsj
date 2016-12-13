@@ -3,11 +3,11 @@ include_once('medoo.php');
 
 $database = new medoo([
     // 必须配置项
-    'database_type' => 'mysql',
-    'database_name' => 'mcserver',
-    'server' => '123.206.47.146',
-    'username' => 'mcserver',
-    'password' => 'dllxFkOGUBsMaJOj',
+    'database_type' => 'mysql', 
+    'database_name' => '', // 数据库名
+    'server' => '', // 链接mysql地址
+    'username' => '', // 链接名
+    'password' => '', // 连接密码
     'charset' => 'utf8',
  
     // 可选参数
