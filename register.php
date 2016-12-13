@@ -48,7 +48,7 @@ echo json_encode($data);return false;
  * @param  integer $flag [ 0数字字符混合 1字符 2数字]
  * @return [type]        [description]
  */
-public function getSalt($num = 0, $flag = 0)
+function getSalt($num = 0, $flag = 0)
 {
 	  /**获取验证标识**/
     $arr = array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',1,2,3,4,5,6,7,8,9,0);
